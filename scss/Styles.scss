@@ -1,0 +1,14 @@
+.encabezado{
+    display: flex;
+    background-image: linear-gradient(red, blue);
+    justify-content: center;
+}
+$texto:red;
+$principal: blue;
+$secundario: orange;
+
+body{
+    background: $principal;
+    color: $texto;
+    border: 5px solid $secundario;
+}
